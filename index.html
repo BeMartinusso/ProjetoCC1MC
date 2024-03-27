@@ -4,38 +4,20 @@
     <meta charset="UTF-8">
     <title>Currículo</title>
 
-    <style>
-        #eu {
-            border-radius: 20px;
-            display: block;
-            margin: auto;
-        }
-
-        h1 {
-            text-align: center;
-            font-family: Verdana, Geneva, Tahoma, sans-serif;
-            font-style: italic;
-        }
-
-        h2 {
-            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        }
-
-        body {
-            background-color: thistle;
-            font-size:x-large;
-        }
-
-        img {
-            align-items: center;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <h1>Currículo</h1>
-
+    <header>
+        <a href="#default" class="logo">Portfólio</a>
+        <div class="header-right">
+          <a class="active" href="index.html">Home</a>
+          <a href="habilidades.html">Habilidades</a>
+          <a href="principal.html">Principal</a>
+        </div>
+    </header>
+      
     <h2>Nome e Informações</h2>
     <p>Sou Bernardo Fernandes Martinusso, sou estudante da Universidade de Vila Velha e Flamenguista. Ex-aluno de ensino
         técnico de Rede de computadores da escola estadual Renato Pacheco. Sou uma pessoa carismática e gentil com quem
@@ -49,27 +31,6 @@
         <li>Entusiasta em programação. (iniciante)</li>
         <li>Flamenguista</li>
     </ul>
-
-    <h2>Redes Sociais</h2>
-    <a href="https://www.instagram.com/bemartinusso?igsh=MWYwd3NvZzBraHE3YQ==" target="_blank"><img src="imagens/Instagram_icon.png.webp" alt="Insta" width="40px"></a>
-    <br><br>
-    <a href="https://github.com/BeMartinusso" target="_blank"><img src="imagens/25231.png" alt="Github" width="40px"></a>
-    <br><br>
-    <a href="https://br.linkedin.com/in/bernardo-martinusso-5279a8297" target="_blank"><img src="imagens/LinkedIn_logo_initials.png" alt="Linkedin" width="40px"></a>
-
-    <h2>Contato</h2>
-    <form>
-        <label for="mensagem">Email</label> <br>
-        <input type="text" name="email"> <br> <br>
-        <label for="mensagens">Mensagem</label> <br>
-        <textarea name="texto"  cols="30" rows="10"></textarea> 
-        <input type="submit"> <br> <br>
-        <label for="dob">Data de Nascimento</label> <br>
-        <input type="date" name="dob"> <br><br>
-        <label for="cor">Cor preferida</label> <br>
-        <input type="color"> 
-        <input type="submit">
-    </form>
 
     <h2>Experiências</h2>
     <table border="4">
@@ -88,12 +49,43 @@
             <td>Renato Pacheco</td>
             <td>10</td>
           </tr>
+          <tr>
+             <td>Sesi</td>
+             <td>10</td>
+          </tr>
         </tbody>
         <tfoot>
             <tr>
                 <td colspan="4">Construido por Martinusso</td>
             </tr>
         </tfoot>
+    </table>
+
+        <div id="cont">
+        <h2>Contato</h2>
+        <form>
+            <label for="mensagem">Email</label> <br>
+            <input type="text" name="email"> <br> <br>
+            <label for="mensagens">Mensagem</label> <br>
+            <textarea name="texto"  cols="30" rows="10"></textarea> 
+            <input type="submit"> <br> <br>
+            <label for="dob">Data de Nascimento</label> <br>
+            <input type="date" name="dob"> <br><br>
+            <label for="cor">Cor preferida</label> <br>
+            <input type="color"> 
+            <input type="submit"> <br><br>
+            <label for="mensagens">Mapa</label> <br><br>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.4114376737584!2d-41.11292906468482!3d-20.850811040615074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb9435749501c83%3A0xa229aa2ff45abbc!2sCasa%20de%20Cultura%20Roberto%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1711536718528!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </form>
+        </div>
+
+        <h2>Redes Sociais</h2>
+        <a href="https://www.instagram.com/bemartinusso?igsh=MWYwd3NvZzBraHE3YQ==" target="_blank"><img src="imagens/Instagram_icon.png.webp" alt="Insta" width="40px"></a>
+        <br><br>
+        <a href="https://github.com/BeMartinusso" target="_blank"><img src="imagens/25231.png" alt="Github" width="40px"></a>
+        <br><br>
+        <a href="https://br.linkedin.com/in/bernardo-martinusso-5279a8297" target="_blank"><img src="imagens/LinkedIn_logo_initials.png" alt="Linkedin" width="40px"></a>
+        <div id="cont">
 
 </body>
 
