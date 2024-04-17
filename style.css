@@ -15,8 +15,9 @@ h2 {
 }
 
 body {
-    background-color: lightgray;
+    background-color: black ;
     font-size:x-large;
+    color: white;
 }
 
 img {
@@ -25,8 +26,9 @@ img {
 
 header {    
     overflow: hidden;
-    background-color: lightslategray;
+    background-color: grey;
     padding: 20px 10px;
+    color: white;
 }
 
 header a {
@@ -56,3 +58,7 @@ header a.active {
     color: white;
   }
 
+footer {
+    text-align: center;
+    
+}
