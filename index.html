@@ -1,99 +1,272 @@
-<html>
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Currículo</title>
-
-    <link rel="stylesheet" href="style.css">
-
+  <title>Currículo</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="HTML5 website template">
+  <meta name="keywords" content="global, template, html, sass, jquery">
+  <meta name="author" content="Bucky Maler">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header>
-        <a href="#default" class="logo">Portfólio</a>
-        <div class="header-right">
-          <a class="active" href="index.html">Home</a>
-          <a href="habilidades.html">Habilidades</a>
-          <a href="principal.html">Principal</a>
-        </div>
-    </header>
-      
-    <h2>Nome e Informações</h2>
-    <p>Sou Bernardo Fernandes Martinusso, sou estudante da Universidade de Vila Velha e Flamenguista. Ex-aluno de ensino
-        técnico de Rede de computadores da escola estadual Renato Pacheco. Sou uma pessoa carismática e gentil com quem
-        conheço porém introvertido e tímido com pessoas desconhecidas.</p>
-    <img id="eu" src="imagens/badfc852-5ff3-4304-80ab-8cc8ddd990eb.jpg" alt="eu" width="550px">
 
-    <h2>Habilidades</h2>
-    <ul>
-        <li>Técnico de Rede de computadores, formado pela Escola Estadual Renato Pacheco</li>
-        <li>Estudante de Ciências da Computação na Universidade de Vila Velha</li>
-        <li>Entusiasta em programação. (iniciante)</li>
-        <li>Flamenguista</li>
-    </ul>
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Currículo Martinusso</p>
+  </a>
+  <p class="device-notification--message">Global has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
+</div>
 
-    <h2>Experiências</h2>
-    <table border="4">
-        <thead>
-          <tr>
-            <th>Instituições</th>
-            <th>Notas</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>UVV</td>
-            <td>10</td>
-          </tr>
-          <tr>
-            <td>Renato Pacheco</td>
-            <td>10</td>
-          </tr>
-          <tr>
-             <td>Sesi</td>
-             <td>10</td>
-          </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <td colspan="4">Construido por Martinusso</td>
-            </tr>
-        </tfoot>
-    </table>
-
-        <div id="cont">
-        <h2>Contato</h2>
-        <form>
-            <label for="mensagem">Email</label> <br>
-            <input type="text" name="email"> <br> <br>
-            <label for="mensagens">Mensagem</label> <br>
-            <textarea name="texto"  cols="30" rows="10"></textarea> 
-            <input type="submit"> <br> <br>
-            <label for="dob">Data de Nascimento</label> <br>
-            <input type="date" name="dob"> <br><br>
-            <label for="cor">Cor preferida</label> <br>
-            <input type="color"> 
-            <input type="submit"> <br><br>
-            <label for="mensagens">Mapa</label> <br><br>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.4114376737584!2d-41.11292906468482!3d-20.850811040615074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb9435749501c83%3A0xa229aa2ff45abbc!2sCasa%20de%20Cultura%20Roberto%20Carlos!5e0!3m2!1spt-BR!2sbr!4v1711536718528!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </form>
-        </div>
-
-      <footer>
-          <div class="row">
-            <a href="https://www.instagram.com/bemartinusso?igsh=MWYwd3NvZzBraHE3YQ==" target="_blank"><img src="imagens/criativo-6594670e4b7e9MDIvMDEvMjAyNCAxNmg0Mg__-removebg-preview.png" alt="Insta" width="40px"><i class="fa fa-insta"></i></a>
-            <a href="https://github.com/BeMartinusso" target="_blank"><img src="imagens/png-clipart-github-pages-logo-repository-fork-github-mammal-cat-like-mammal-thumbnail-removebg-preview.png" alt="Github" width="40px"><i class="fa fa-github"></i></a>
-            <a href="https://br.linkedin.com/in/bernardo-martinusso-5279a8297" target="_blank"><img src="imagens/4c87d1c257a7b9cc3f28f4c98c5a7686-removebg-preview.png" alt="Linkedin" width="40px"><i class="fa fa-linkedin"></i></a>
-          </div>
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Global">
+            <p>Currículo Martinusso</p>
+          </a>
           
-          <div class="row">
-          <ul>
-          <li><a href="#">Contato</a></li>
-          <li><a href="#">Localização</a></li>
-          </ul>
+          <div class="header--nav-toggle">
+            <span></span>
           </div>
-      </footer>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Principal</span></li>
+            <li><span>Experiências</span></li>
+            <li><span>Sobre mim</span></li>
+            <li><span>Contatos</span></li>
+            <li><span>Tecnologias</span></li>
+          </ul>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>Olá, sou<br>Bernardo<br>Martinusso</h1>
+                <button class="cta">Tecnologias
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/ac9ea91b-886a-4075-94b3-c2e5806a350a-removebg-preview.png" width="55%" alt="Welcome">
+              </div>
+              <div class="intro--options">
+                <a href="#0">
+                  <h3>Metiew &amp; Smith</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Fantasy interactive</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Paul &amp; shark</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Experiências</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/images (1).png" alt="Victory">
+                      </div>
+                      <p class="slider--item-title">Renato Pacheco</p>
+                      <p class="slider--item-description">Estudei entre 2021 a 2023, formei no curso técnico de Redes de Computadores.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/images.png" alt="Metiew and Smith">
+                      </div>
+                      <p class="slider--item-title">Universidade de Vila Velha</p>
+                      <p class="slider--item-description">Cursando atualmente o curso de Ciências da Computação na UVV.</p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/channels4_profile.jpg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Cursos Onlines</p>
+                      <p class="slider--item-description">Fiz por algum tempos alguns cursos de programação onlines, como no site Alura.</p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>Sobre mim</h2>
+                <p>Atual aluno de Ciencias da Computação na Universidade de Vila Velha,<br> estou muito animado com a Universidade e o conhecimnento que<br> posso adquirir. <br><br> Estou animado também com a possibilidade de conseguir um bom emprego<br> na área da computação, área essa, que está em crescente, entre no meu<br> Linkedin para saber um pouco mais sobre minhas qualificações:</p>
+                <br><br>
+                <a href="https://www.linkedin.com/in/bernardo-martinusso-5279a8297/" target="_blank">Linkedin
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/d73dd5b8-06a6-408e-b0c9-2686cf33b22a-removebg-preview.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="assets/img/1efebb29-c911-4dab-b8fe-f25073955ab7.jpeg" target="_blank">
+                  <h3>Apaixonado</h3>
+                </a>
+                <a href="assets/img/277c8630-600c-45e5-bf63-d0b64c08addb.jpeg" target="_blank">
+                  <h3>Fã de F1</h3>
+                </a>
+                <a href="assets/img/WhatsApp Image 2024-04-22 at 20.44.07.jpeg" target="_blank">
+                  <h3>Amante de RPG de Mesa</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1619.9779264497802!2d-40.270445769298064!3d-20.246731219933004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb818fe6c775575%3A0x491423bd798f482a!2sRecanto%20de%20Camburi!5e0!3m2!1spt-BR!2sbr!4v1713828066750!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>Av. Eng. Charles Bitran, 435 - Jardim Camburi, Vitória - ES, 29092-270</p>
+                    <a href="mailto:ouremail@gmail.com">bemartinusso@gmail.com</a>
+                    <a href="tel:+148126287560">+27 99275-3762</a>
+                  </div>
+                  <ul class="modal--options">
+                    <li><a href="https://www.instagram.com/bemartinusso?igsh=MWYwd3NvZzBraHE3YQ%3D%3D">Instagram</a></li>
+                    <li><a href="https://github.com/BeMartinusso">Github</a></li>
+                    <li><a href="mailto:bemartinusso@gmail.com">Envie uma mensagem</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>Tecnologias que domino</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="app design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      HTML
+                    </label>
+                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      CSS
+                    </label>
+                    <input id="opt-3" type="checkbox" value="motion design">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      JavaScript
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="ux design">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      SQL
+                    </label>
+                    <input id="opt-5" type="checkbox" value="webdesign">
+                    <label for="opt-5">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      C++
+                    </label>
+                    <input id="opt-6" type="checkbox" value="marketing">
+                    <label for="opt-6">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Portugol
+                    </label>
+                  </span>
+                </div> 
+              </form>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <ul class="outer-nav">
+    <li class="is-active">Principal</li>
+    <li>Experiências</li>
+    <li>Sobre mim</li>
+    <li>Contatos</li>
+    <li>Tecnologias</li>
+  </ul>
+</div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
 </body>
-
 </html>

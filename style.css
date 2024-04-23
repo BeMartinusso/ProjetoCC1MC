@@ -1,112 +1,13 @@
-#eu {
-    border-radius: 20px;
-    display: block;
-    margin: auto;
+.about--options {
+    a:nth-child(1) {
+    background-image: url("assets/img/1efebb29-c911-4dab-b8fe-f25073955ab7.jpeg");
+    }
+
+    a:nth-child(2) {
+    background-image: url("assets/img/277c8630-600c-45e5-bf63-d0b64c08addb.jpeg");
+    }
+
+    a:nth-child(3) {
+    background-image: url("assets/img/WhatsApp\ Image\ 2024-04-22\ at\ 20.44.07.jpeg");
+    }
 }
-
-h1 {
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-style: italic;
-}
-
-h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
-body {  
-    font-size:x-large;
-    color: white;
-}
-
-img {
-    align-items: center;
-}
-
-header {    
-    overflow: hidden;
-    background-color: grey;
-    padding: 20px 10px;
-    color: white;
-}
-
-header a {
-    float: left;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 4px;
-    line-height: 25px;
-    color: black;
-}
-
-
-
-header a.logo {
-    font-size: 25px;
-    font-weight: bold;
-}
-
-.header-right {
-    float: right;
-}
-
-header a.active {
-    background-color: dodgerblue;
-    color: white;
-  }
-
-  footer{
-    background:#000;
-    padding:20px 0px;
-    font-family: 'Play', sans-serif;
-    text-align:center;
-    }
-    
-    footer .row{
-    text-align: center;
-    margin:1% 0%;
-    padding:0.6% 0%;
-    color:gray;
-    font-size:0.8em;
-    }
-    
-    footer .row a{
-    text-decoration:none;
-    color:gray;
-    transition:0.5s;
-    }
-    
-    footer .row a:hover{
-    color:#fff;
-    }
-    
-    footer .row ul{
-    text-align: center;
-    }
-    
-    footer .row ul li{
-    display:inline-block;
-    margin:0px 20px;
-    }
-    
-    footer .row a i{
-    font-size:2em;
-    margin:0% 1%;
-    }
-    
-    @media (max-width:720px){
-    footer{
-    text-align:left;
-    padding:5%;
-    }
-    footer .row ul li{
-    display:block;
-    margin:5px 0px;
-    text-align:left;
-    }
-    footer .row a i{
-    margin:0% 3%;
-    }
-    }
